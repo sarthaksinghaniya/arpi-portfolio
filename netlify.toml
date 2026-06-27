@@ -1,6 +1,6 @@
 [build]
-  # The directory containing your static files.
-  # Since index.html is in the root, we use "."
+  # Safe cross-platform no-op command for static sites
+  command = "echo 'No build step required'"
   publish = "."
 
 # Basic security headers
