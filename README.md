@@ -9,7 +9,7 @@ Built with a strong focus on **animations, performance, and user experience**.
 
 ## Live Demo 🚀
 
-You can view the live website here: [Live Demo](https://silver-pothos-bdbfe5.netlify.app/)
+You can view the live website here: [Live Demo](https://arpiii-dev.netlify.app/)
 
 ---
 
@@ -53,25 +53,4 @@ You can view the live website here: [Live Demo](https://silver-pothos-bdbfe5.net
 ```
 ---
 
-
-## 🚀 How to Use / Customize
-
-1. **Clone the repository:**
-
- ---
-
-## 📬 Contact
-
-- Email: aminehamzaoui1925@gmail.com   
-- Location: Boumerdès, Algeria  
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-amine-hamzaoui-a2453a35b/)  
-- GitHub: [GitHub](https://github.com/Saboo24)  
-- Instagram: [Instagram](https://www.instagram.com/a__m.i.n__e/?utm_source=ig_web_button_share_sheet)
-
----
-
-Made with ❤️ by **Amine Hamzaoui**
-
-```bash
-git clone https://github.com/Saboo24/Portfolio9.git
-
+made with 💖 sarthak 
