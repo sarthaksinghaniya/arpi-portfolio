@@ -101,7 +101,7 @@
             <div class="hidden md:flex items-center gap-6 text-sm font-medium ml-auto relative z-20" id="desktop-menu">
                 <a href="#home" class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">Home</a>
                 <a href="#about" class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">About</a>
-                <a href="#projects" class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">Projects</a>
+                <a href="#events" class="nav-link text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors hoverable magnetic-btn">Events</a>
                 <a href="#contact" class="px-5 py-2 bg-slate-900 dark:bg-white text-white dark:text-black rounded-full font-bold text-xs hover:scale-105 transition-transform hoverable magnetic-btn">Hire Me</a>
             </div>
 
@@ -120,7 +120,7 @@
     <div id="mobile-menu" class="fixed inset-0 z-40 bg-white/95 dark:bg-black/95 backdrop-blur-xl flex flex-col items-center justify-center gap-8 opacity-0 pointer-events-none transition-all duration-300">
         <a href="#home" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Home</a>
         <a href="#about" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">About</a>
-        <a href="#projects" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Projects</a>
+        <a href="#events" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Events</a>
         <a href="#contact" class="text-3xl font-display font-bold mobile-link hover:text-primary hoverable">Contact</a>
         <button id="close-menu" aria-label="Tutup Menu" class="absolute top-8 right-8 text-slate-500 hover:text-black dark:hover:text-white hoverable">
             <i class="fas fa-times text-2xl"></i>
@@ -382,77 +382,49 @@
             </div>
         </div>
     </section>
-    <section id="projects" class="section-spy py-24 relative z-10">
+    <section id="events" class="section-spy py-24 bg-slate-50 dark:bg-[#080808] relative z-10">
         <div class="container mx-auto px-6 max-w-6xl">
             <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6 reveal-on-scroll">
                 <h2 class="font-display text-4xl font-bold text-slate-900 dark:text-white">
-                    Data Projects<span class="text-primary">.</span>
+                    Events Managed<span class="text-primary">.</span>
                 </h2>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Project 1 -->
-                <div class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 group hoverable reveal-on-scroll spotlight-card flex flex-col">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Event 1 -->
+                <div class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 group hoverable reveal-on-scroll spotlight-card">
                     <div class="spotlight-overlay"></div>
-                    <div class="w-full h-48 mb-6 rounded-xl overflow-hidden relative z-10 border border-slate-200 dark:border-white/10">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sales Dashboard" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 text-2xl group-hover:bg-primary group-hover:text-white transition-colors relative z-10">
+                        <i class="fas fa-users"></i>
                     </div>
-                    <h3 class="text-2xl font-bold font-display text-slate-900 dark:text-white mb-2 relative z-10">Sales Data Analysis Dashboard</h3>
-                    <p class="text-primary text-sm font-bold mb-4 relative z-10">Power BI | SQL | Excel</p>
-                    <p class="text-slate-500 text-sm leading-relaxed relative z-10 mb-4 flex-grow">
-                        <strong>Problem:</strong> The client needed visibility into regional sales performance.<br>
-                        <strong>Insights:</strong> Identified a 20% drop in Q3 sales due to supply chain issues in the Midwest.<br>
-                        <strong>Output:</strong> An interactive dashboard tracking KPIs in real-time.
+                    <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3 relative z-10">Innoved x Hackathon</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed relative z-10">
+                        Managed 3+ events with over 500 participants. Ensured good speaker time management and overall smooth execution.
                     </p>
-                    <a href="https://github.com/sharmaarpita307-ai/Hello-Python" target="_blank" class="text-sm font-bold text-slate-900 dark:text-white hover:text-primary transition-colors relative z-10 flex items-center gap-2 mt-auto w-fit">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 group hoverable reveal-on-scroll delay-100 spotlight-card flex flex-col">
+                <!-- Event 2 -->
+                <div class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 group hoverable reveal-on-scroll delay-100 spotlight-card">
                     <div class="spotlight-overlay"></div>
-                    <div class="w-full h-48 mb-6 rounded-xl overflow-hidden relative z-10 border border-slate-200 dark:border-white/10">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Customer Segmentation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 text-2xl group-hover:bg-primary group-hover:text-white transition-colors relative z-10">
+                        <i class="fas fa-laptop-code"></i>
                     </div>
-                    <h3 class="text-2xl font-bold font-display text-slate-900 dark:text-white mb-2 relative z-10">Customer Segmentation</h3>
-                    <p class="text-primary text-sm font-bold mb-4 relative z-10">Python (Pandas, Scikit-learn) | Seaborn</p>
-                    <p class="text-slate-500 text-sm leading-relaxed relative z-10 mb-4 flex-grow">
-                        <strong>Problem:</strong> Marketing campaigns were untargeted, leading to low ROI.<br>
-                        <strong>Insights:</strong> Clustered customers into 4 distinct groups based on purchasing behavior.<br>
-                        <strong>Output:</strong> A detailed Jupyter Notebook report and clustering models.
+                    <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3 relative z-10">Kalpathon Hackathon</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed relative z-10">
+                        Successfully managed this hackathon with 200 participants.
                     </p>
-                    <a href="https://github.com/sharmaarpita307-ai/Hello-Python" target="_blank" class="text-sm font-bold text-slate-900 dark:text-white hover:text-primary transition-colors relative z-10 flex items-center gap-2 mt-auto w-fit">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
 
-                <!-- Project 3 -->
-                <div class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 group hoverable reveal-on-scroll spotlight-card flex flex-col">
+                <!-- Event 3 -->
+                <div class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 group hoverable reveal-on-scroll delay-200 spotlight-card">
                     <div class="spotlight-overlay"></div>
-                    <div class="w-full h-48 mb-6 rounded-xl overflow-hidden relative z-10 border border-slate-200 dark:border-white/10">
-                        <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Forecasting" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 text-2xl group-hover:bg-primary group-hover:text-white transition-colors relative z-10">
+                        <i class="fas fa-paint-brush"></i>
                     </div>
-                    <h3 class="text-2xl font-bold font-display text-slate-900 dark:text-white mb-2 relative z-10">Forecasting & Trend Analysis</h3>
-                    <p class="text-primary text-sm font-bold mb-4 relative z-10">Python (Statsmodels, Prophet) | Tableau</p>
-                    <p class="text-slate-500 text-sm leading-relaxed relative z-10 mb-4 flex-grow">
-                        <strong>Problem:</strong> Predicting inventory needs for the upcoming holiday season.<br>
-                        <strong>Insights:</strong> Built a time-series model predicting a 30% spike in demand for top-tier products.<br>
-                        <strong>Output:</strong> Predictive charts and a Tableau dashboard.
+                    <h3 class="text-xl font-bold font-display text-slate-900 dark:text-white mb-3 relative z-10">Vibe Designing Event</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed relative z-10">
+                        Managed design-focused event catering to 100 participants.
                     </p>
-                    <a href="https://github.com/sharmaarpita307-ai/Hello-Python" target="_blank" class="text-sm font-bold text-slate-900 dark:text-white hover:text-primary transition-colors relative z-10 flex items-center gap-2 mt-auto w-fit">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="p-8 rounded-2xl bg-white dark:bg-surface border border-slate-200 dark:border-white/10 hover:border-primary/50 transition-all duration-300 group hoverable reveal-on-scroll delay-100 spotlight-card flex flex-col">
-                    <div class="spotlight-overlay"></div>
-                    <div class="w-full h-48 mb-6 rounded-xl overflow-hidden relative z-10 border border-slate-200 dark:border-white/10">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="EDA Dataset" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" style="filter: hue-rotate(90deg);">
-                    </div>
-                    <h3 class="text-2xl font-bold font-display text-slate-900 dark:text-white mb-2 relative z-10">Exploratory Data Analysis (EDA)</h3>
-                    <p class="text-primary text-sm font-bold mb-4 relative z-10">Python (Pandas, Matplotlib) | SQL</p>
-                    <p class="text-slate-500 text-sm leading-relaxed relative z-10 mb-4 flex-grow">
-                        <strong>Problem:</strong> Need to understand anomalies in user engagement logs.<br>
-                        <strong>Insights:</strong> Discovered a correlation between engagement drops and app crash rates.<br>
-                        <strong>Output:</strong> Comprehensive analytical report and visual charts.
-                    </p>
-                    <a href="https://github.com/sharmaarpita307-ai/Hello-Python" target="_blank" class="text-sm font-bold text-slate-900 dark:text-white hover:text-primary transition-colors relative z-10 flex items-center gap-2 mt-auto w-fit">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
