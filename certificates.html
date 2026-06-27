@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proof of Work - Arpita Sharma</title>
+    <meta name="description" content="Certificates and Proof of Work for Arpita Sharma, Data Analyst.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                fontFamily: {
+                    sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    display: ['"Space Grotesk"', 'sans-serif'],
+                },
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#4f46e5',
+                        dark: '#050505',
+                        surface: '#0a0a0a',
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-dark dark:text-slate-200 transition-colors duration-500">
+
+    <!-- Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 pt-6">
+        <nav class="bg-white/70 dark:bg-surface/70 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-full px-6 py-3 flex items-center justify-between shadow-sm transition-all duration-300 w-full max-w-4xl">
+            <a href="index.html" class="text-xl font-bold font-display tracking-tight text-slate-900 dark:text-white hoverable flex items-center gap-2">
+                <i class="fas fa-arrow-left text-primary"></i> Back to Home
+            </a>
+            <span class="text-xl font-bold font-display tracking-tight text-slate-900 dark:text-white hidden sm:block">
+                Proof of Work<span class="text-primary">.</span>
+            </span>
+        </nav>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="pt-32 pb-24 min-h-screen">
+        <div class="container mx-auto px-6 max-w-6xl">
+            
+            <div class="text-center mb-16">
+                <h1 class="font-display text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
+                    Certificates & Achievements
+                </h1>
+                <p class="text-slate-500 max-w-2xl mx-auto">
+                    A visual gallery of my continuous learning journey, hackathon participations, and organizing efforts.
+                </p>
+            </div>
+
+            <!-- CSS Grid Gallery -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                
+                <!-- Certificate 1 -->
+                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-slate-200 dark:bg-surface border border-slate-200 dark:border-white/10 cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1523289217630-0dd16184ac8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Certificate 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h3 class="text-white font-bold text-xl">Hackathon Participation</h3>
+                        <p class="text-slate-300 text-sm">2026</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-slate-200 dark:bg-surface border border-slate-200 dark:border-white/10 cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1523289217630-0dd16184ac8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Certificate 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" style="filter: hue-rotate(45deg);">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h3 class="text-white font-bold text-xl">Event Organization</h3>
+                        <p class="text-slate-300 text-sm">TechNeekX</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-slate-200 dark:bg-surface border border-slate-200 dark:border-white/10 cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1523289217630-0dd16184ac8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Certificate 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" style="filter: hue-rotate(90deg);">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h3 class="text-white font-bold text-xl">Data Analyst Bootcamp</h3>
+                        <p class="text-slate-300 text-sm">Certificate of Completion</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 4 -->
+                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-slate-200 dark:bg-surface border border-slate-200 dark:border-white/10 cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1523289217630-0dd16184ac8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Certificate 4" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" style="filter: hue-rotate(180deg);">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h3 class="text-white font-bold text-xl">Python Certification</h3>
+                        <p class="text-slate-300 text-sm">Advanced Level</p>
+                    </div>
+                </div>
+                
+                <!-- Certificate 5 -->
+                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-slate-200 dark:bg-surface border border-slate-200 dark:border-white/10 cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1523289217630-0dd16184ac8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Certificate 5" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" style="filter: hue-rotate(270deg);">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h3 class="text-white font-bold text-xl">SQL & Databases</h3>
+                        <p class="text-slate-300 text-sm">Specialization</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 6 -->
+                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-slate-200 dark:bg-surface border border-slate-200 dark:border-white/10 cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1523289217630-0dd16184ac8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Certificate 6" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" style="filter: invert(1) hue-rotate(180deg);">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h3 class="text-white font-bold text-xl">Tableau Expert</h3>
+                        <p class="text-slate-300 text-sm">Visual Analytics</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-200 dark:border-white/10 text-center text-sm text-slate-500 bg-slate-50 dark:bg-dark">
+        <div>© 2026 Arpita Sharma. All rights reserved.</div>
+    </footer>
+
+</body>
+</html>
